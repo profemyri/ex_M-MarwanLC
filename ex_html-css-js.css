@@ -28,3 +28,9 @@ form {
 input select textarea{
    border: 1px #eaeaea solid;
 }
+
+.enviar {
+   background-color: #0077b6;
+   color: white;
+   text-align: center;
+}

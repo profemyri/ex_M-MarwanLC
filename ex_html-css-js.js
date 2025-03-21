@@ -1,1 +1,7 @@
-//Escribe aquí tu código JavaScript
+let nombre = document.getElementById("nombre");
+
+if(nombre)
+
+document.getElementById("boton").onclick = function (){
+    document.body.classList.toggle("oscuro");
+};

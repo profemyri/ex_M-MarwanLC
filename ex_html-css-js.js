@@ -10,5 +10,5 @@ document.getElementById("boton").onclick = function (){
 };
 
 document.getElementById("enviar").onmouseover = function (){
-    document.inputEncoding.classList.toggle("white");
+    document.input.classList.toggle("white");
 };

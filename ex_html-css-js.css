@@ -20,3 +20,11 @@ img {
    align-items: center;
    width: 100%;
 }
+
+form {
+   background-color: #ffffff;
+}
+
+input select textarea{
+   border: 1px #eaeaea solid;
+}

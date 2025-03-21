@@ -34,3 +34,14 @@ input select textarea{
    color: white;
    text-align: center;
 }
+
+textarea::placeholder {
+   color: #f4a261;
+}
+
+* {
+   margin: 15px;
+   padding: 10px;
+   border-radius: 10px;
+
+}

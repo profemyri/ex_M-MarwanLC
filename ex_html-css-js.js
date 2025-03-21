@@ -1,4 +1,6 @@
-let nombre = document.getElementById("nombre");
+document.getElementById("nombre").onsumbit = function() {
+    document
+}
 
 
 document.getElementById("instrucciones").oninput = function (){

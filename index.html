@@ -90,7 +90,7 @@
         <ul>
             <li>
                 <label for="efectivo">Efectivo</label>
-                <input type="hidden" name="pago" id="efectivo" required>
+                <input type="radio" name="pago" id="efectivo" required>
             </li>
             <li>
                 <label for="tarjeta">Tarjeta</label>
@@ -103,8 +103,9 @@
         </ul>
     </form>
     <h2>Instrucciones adicionales</h2>
-    <textarea name="instrucciones" id="Instrucciones" maxlength="150">Introduzca aqui</textarea>
-    
+    <textarea name="instrucciones" id="Instrucciones" maxlength="150" placeholder="Introduzca aqui"></textarea>
+    <br>
+    <input type="submit" value="Enviar pedido" id="enviar">
 
     <script src="ex_html-css-js.js"></script>
 </body>
